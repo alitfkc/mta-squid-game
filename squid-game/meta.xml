@@ -1,0 +1,120 @@
+<meta>
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~THIS SCRIPT BELONGS TO META SCRIPTS~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~DISCORD : Beyonder#0711~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~DISCORD SERVER : https://discord.gg/e4f9uUbzys~~~~~~~~~~~~~~-| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~WEBSITE : http://metascripts.org/~~~~~~~~~~~~~~~~~~~~~-| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~DISCORD : Gangsta#6869~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~BU SCRİPT META SCRİPTS'E AİTTİR~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~DISCORD : Beyonder#0711~~~~~~~~~~~~~~~~~~~~~~~~-| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~DISCORD SERVER : https://discord.gg/e4f9uUbzys~~~~~~~~~~~~~~-| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~WEBSITE : http://metascripts.org/~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~DISCORD : Gangsta#6869~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <info author="Deniz" version="1.0" name="Squid Game"/>
+
+    <!--Ayar dosyaları--> 
+    <script src="ayarlar/ayarlar.lua" type="shared" />
+
+    <!--Evente katılma dosyaları--> 
+    <script src="evente_katilma/event_katilma_c.lua" type="client"  cache="false"/>
+    <script src="evente_katilma/event_katilma_s.lua" type="server" cache="false"/>
+
+    <!--Üst yazı dosyaları-->
+    <script src="ust_yazi/uyari.lua" type="client" cache="false"/>
+    <script src="ust_yazi/mesaj.lua" type="client" cache="false"/>
+    <file src="ust_yazi/icons.ttf" type="client" cache="false"/>
+    <file src="ust_yazi/roboto.ttf" type="client" cache="false"/>
+
+    <!--Event komut engelleri dosyaları-->
+    <script src="event_engeller/event_engelleri.lua" type="client" cache="false"/>
+
+    <!--Event Başlatma dosyaları-->
+    <script src="event_baslatma/event_baslatma_kontrol_s.lua" type="server" cache="false"/>
+    <script src="event_baslatma/event_baslatma_kontrol_c.lua" type="client" cache="false"/>
+
+    <!--Eventten Çıkma dosyaları-->
+    <script src="eventten_cikma/eventten_cikma_s.lua" type="server" cache="false"/>
+    <script src="eventten_cikma/eventten_cikma_c.lua" type="client" cache="false"/>
+
+    <!--Event bitirme dosyaları-->
+    <script src="event_bitirme/event_bitirme_s.lua" type="server" cache="false"/>
+    <script src="event_bitirme/event_bitirme_c.lua" type="client" cache="false"/>
+
+    <!--Event Obje dosyaları-->
+    <script src="obje/obje_c.lua" type="client" cache="false"/>
+    <file src="obje/body.txd" type="client" cache="false"/>
+    <file src="obje/body.dff" type="client" cache="false"/>
+    <file src="obje/body.col" type="client" cache="false"/>
+    <file src="obje/head.txd" type="client" cache="false"/>
+    <file src="obje/head.dff" type="client" cache="false"/>
+    <file src="obje/head.col" type="client" cache="false"/>
+
+    <!--Event Harita dosyaları-->
+    <script src="harita/harita_s.lua" type="server" cache="false"/>
+
+    <!--Event çalışma dosyaları-->
+    <script src="event_calisma_kontrol/event_calisma_kontrol_s.lua" type="server"  cache="false"/>
+    <script src="event_calisma_kontrol/event_calisma_kontrol_c.lua" type="client" cache="false"/>
+
+    <!--Event oyun alanı dosyaları-->
+    <script src="oyun_alani/oyun_alani_c.lua" type="client" cache="false"/>
+    <file src="oyun_alani/oyun_alani.txd" type="client" cache="false"/>
+    <file src="oyun_alani/oyun_alani.dff" type="client" cache="false"/>
+    <file src="oyun_alani/oyun_alani.col" type="client" cache="false"/>
+    
+    <!--Skin dosyaları-->
+    <script src='skinler/skinler_c.lua' type='client' cache="false"/>
+	<file src='skinler/daire_muhafiz.txd' cache="false"/>
+	<file src='skinler/daire_muhafiz.dff' cache="false"/>
+    <file src='skinler/skin1.txd' cache="false"/>
+	<file src='skinler/skin1.dff' cache="false"/>
+    <file src='skinler/skin2.txd' cache="false"/>
+	<file src='skinler/skin2.dff' cache="false"/>
+    <file src='skinler/skin3.txd' cache="false"/>
+	<file src='skinler/skin3.dff' cache="false"/>
+    <file src='skinler/skin4.txd' cache="false"/>
+	<file src='skinler/skin4.dff' cache="false"/>
+    
+    <!--Bebek sesi dosyası-->
+    <file src='sesler/bebek_sesi.mp3' cache="false"/>
+    <file src='sesler/silah_sesi.mp3' cache="false"/>
+    <file src='sesler/goz_sesi.mp3' cache="false"/>
+
+    <!--Afişdosyaları-->
+    <script src='afis/lib.lua' type='client' cache="false"/>
+    <script src='afis/afis_gosterme_c.lua' type='client' cache="false"/>
+    <script src='afis/afis_gosterme_s.lua' type='server'cache="false" />
+    <file src='afis/sq_afis.jpeg' cache="false"/>
+
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~THIS SCRIPT BELONGS TO META SCRIPTS~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~DISCORD : Beyonder#0711~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~DISCORD SERVER : https://discord.gg/e4f9uUbzys~~~~~~~~~~~~~~-| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~WEBSITE : http://metascripts.org/~~~~~~~~~~~~~~~~~~~~~-| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~DISCORD : Gangsta#6869~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~BU SCRİPT META SCRİPTS'E AİTTİR~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~DISCORD : Beyonder#0711~~~~~~~~~~~~~~~~~~~~-| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~DISCORD SERVER : https://discord.gg/e4f9uUbzys~~~~~~~~~~~~~~-| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~WEBSITE : http://metascripts.org/~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~DISCORD : Gangsta#6869~~~~~~~~~~~~~~~~~~~~~~| -->
+    <!-- |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~| -->
+</meta>
